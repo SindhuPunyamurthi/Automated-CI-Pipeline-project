@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
-                git branch: 'main', url: 'https://github.com/SindhuPunyamurthi/jenkin-task.git'
+                git branch: 'main', url: 'https://github.com/SindhuPunyamurthi/Automated-CI-Pipeline-project.git'
             }
         }
 
@@ -45,4 +45,5 @@ pipeline {
             echo '❌ Build failed!'
         }
     }
+
 }
