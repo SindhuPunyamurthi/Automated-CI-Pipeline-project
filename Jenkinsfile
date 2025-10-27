@@ -52,10 +52,10 @@ pipeline {
             echo "Pipeline finished"
         }
         success {
-            echo "✅ Build Succeeded!"
+            echo "Build Succeeded!"
         }
         failure {
-            echo "❌ Build Failed!"
+            echo "Build Failed!"
         }
     }
 }
